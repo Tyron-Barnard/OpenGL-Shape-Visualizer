@@ -42,7 +42,7 @@ The shapes can be manipulated using the following keyboard controls:
 - Move closer: `Q`
 - Move away: `E`
 
-- **Rotation**:
+### Rotation:
 - Rotate around the x-axis (counter-clockwise): `U`
 - Rotate around the x-axis (clockwise): `J`
 - Rotate around the y-axis (counter-clockwise): `I`
@@ -50,7 +50,7 @@ The shapes can be manipulated using the following keyboard controls:
 - Rotate around the z-axis (counter-clockwise): `O`
 - Rotate around the z-axis (clockwise): `L`
 
-- **Scaling**:
+### Scaling:
 - Scale down uniformly: `Z`
 - Scale up uniformly: `X`
 
