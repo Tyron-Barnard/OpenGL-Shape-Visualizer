@@ -34,7 +34,7 @@ To run the application, execute the main script for each shape:
 
 The shapes can be manipulated using the following keyboard controls:
 
-## Translation
+# Translation
 - Move left: `A`
 - Move right: `D`
 - Move up: `W`
