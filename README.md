@@ -17,7 +17,7 @@ This project demonstrates the rendering of basic 3D shapes using PyOpenGL and Py
 ''pip install pygame''
 
 
-### Running the Application
+## Running the Application
 
 To run the application, execute the main script for each shape:
 
