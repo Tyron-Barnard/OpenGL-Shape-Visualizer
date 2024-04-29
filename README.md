@@ -12,6 +12,7 @@ This project demonstrates the rendering of basic 3D shapes using PyOpenGL and Py
 
 You can install the required packages using pip:
 ''pip install pygame PyOpenGL PyOpenGL_accelerate''
+
 ''pip install pygame''
 
 
@@ -19,7 +20,7 @@ You can install the required packages using pip:
 
 To run the application, execute the main script for each shape:
 
-- For the all shapes:
+- For the main application (ALL SHAPES)
 ''python Display.py''
 
 - For the cube:
