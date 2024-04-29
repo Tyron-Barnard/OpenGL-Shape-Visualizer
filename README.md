@@ -4,7 +4,7 @@ This project demonstrates the rendering of basic 3D shapes using PyOpenGL and Py
 
 ## Getting Started
 
-## Prerequisites
+### Prerequisites
 
 - Python 3.x
 - Pygame
