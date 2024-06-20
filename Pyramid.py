@@ -4,7 +4,7 @@ from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
 
-# Define the vertices of the pyramid
+# The vertices of the pyramid
 vertices = (
     (0, 1, 0),   # Top vertex
     (1, -1, 1),  # Bottom front-right vertex
@@ -13,7 +13,7 @@ vertices = (
     (1, -1, -1)  # Bottom back-right vertex
 )
 
-# Define the edges that connect the vertices
+# The edges that connect the vertices
 edges = (
     (0, 1),  # Edges connecting the top vertex to the base vertices
     (0, 2),
@@ -35,7 +35,7 @@ def draw_pyramid():
 
 def main():
     """Main function to set up the display and run the rendering loop."""
-    pygame.init()  # Initialize pygame
+    pygame.init()  # Pygame
     display = (800, 600)  # Set the display size
     pygame.display.set_mode(display, DOUBLEBUF | OPENGL)  # Create the display
 
