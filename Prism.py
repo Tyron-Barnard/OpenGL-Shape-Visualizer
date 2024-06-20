@@ -4,7 +4,7 @@ from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
 
-# Define the vertices of the triangular prism
+# The vertices of the triangular prism
 vertices = (
     (1, -1, -2),  # Back right of the bottom base
     (1, 1, -2),   # Back left of the bottom base
@@ -14,7 +14,7 @@ vertices = (
     (-1, 0, 2)    # Front center of the top base
 )
 
-# Define the edges that connect the vertices
+# The edges that connect the vertices
 edges = (
     (0, 1),  # Bottom base edges
     (1, 2),
@@ -37,7 +37,7 @@ def draw_prism():
 
 def main():
     """Main function to set up the display and run the rendering loop."""
-    pygame.init()  # Initialize pygame
+    pygame.init()  # Pygame
     display = (800, 600)  # Set the display size
     pygame.display.set_mode(display, DOUBLEBUF | OPENGL)  # Create the display
 
