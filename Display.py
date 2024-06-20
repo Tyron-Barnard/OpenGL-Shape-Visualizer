@@ -4,17 +4,17 @@ from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
 
-# Import the draw functions from your model files
+# Import the draw from your model files
 from Pyramid import draw_pyramid
 from Prism import draw_prism
 from Cube import draw_cube
 
-# Initialize the models list with the draw functions of your models
+# The models list with the draw functions of your models
 models = [draw_pyramid, draw_prism, draw_cube]
 current_model = 0  # Index of the currently displayed model
-translation_vectors = [(0, 0, 0)] * len(models)  # Initialize translation vectors for each model
-rotation_angles = [(0, 0, 0)] * len(models)  # Initialize rotation angles for each model
-scaling_factors = [(1, 1, 1)] * len(models)  # Initialize scaling factors for each model
+translation_vectors = [(0, 0, 0)] * len(models)  #  translation vectors for each model
+rotation_angles = [(0, 0, 0)] * len(models)  #  rotation angles for each model
+scaling_factors = [(1, 1, 1)] * len(models)  #  scaling factors for each model
 
 class Display:
     def __init__(self):
@@ -68,7 +68,7 @@ class Display:
 
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
             glPushMatrix()
-            # Apply translation to the current model
+            # To the current model
             glTranslatef(*translation_vectors[current_model])
             # Apply rotation to the current model
             x_angle, y_angle, z_angle = rotation_angles[current_model]
@@ -78,7 +78,7 @@ class Display:
             # Apply scaling to the current model
             sx, sy, sz = scaling_factors[current_model]
             glScalef(sx, sy, sz)
-            models[current_model]()  # Call the draw function of the current model
+            models[current_model]()  # Draw function of the current model
             glPopMatrix()
             pygame.display.flip()
             pygame.time.wait(10)
