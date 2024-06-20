@@ -40,7 +40,7 @@ def draw_cube():
             glVertex3fv(vertices[vertex])
     glEnd()
 
-# Main function to initialize pygame, set up the display, and run the main loop
+# Main function to start pygame, set up the display, and run the main loop
 def main():
     pygame.init()  # Initialize pygame
     display = (800, 600)  # Set display size
@@ -61,4 +61,4 @@ def main():
         pygame.time.wait(10)  # Wait a short time
 
 if __name__ == "__main__":
-    main()  # Run the main function
+    main()  
